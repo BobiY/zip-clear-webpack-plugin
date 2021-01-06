@@ -1,0 +1,27 @@
+{
+  "name": "zip-clear-webpack-plugin",
+  "version": "1.0.2",
+  "description": "zip and clear zip webpack plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BobiY/zip-clear-webpack-plugin.git"
+  },
+  "keywords": [
+    "zip",
+    "webapck",
+    "plugin"
+  ],
+  "author": "yyscc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BobiY/zip-clear-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/BobiY/zip-clear-webpack-plugin#readme",
+  "dependencies": {
+    "compressing": "^1.5.1"
+  }
+}
