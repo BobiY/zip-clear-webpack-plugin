@@ -48,6 +48,9 @@ class ClearPlugin {
           fs.unlinkSync(zipPath)
         }
         // 生成新的压缩文件
+        if(!compressing[compress.type]){
+          throw Error(`不支持的压缩类型${compress.type}, 可选的类型为 zip | tar | tgz。请检查 filename 的后缀或者compress.type 选项。`)
+        }
         compressing[compress.type]
           .compressDir(entryPath, zipPath)
           .then(() => {
